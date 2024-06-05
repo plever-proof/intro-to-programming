@@ -4,15 +4,13 @@ We're going to go over 3 exercises that will give you a brief VERY high level in
 
 You'll need 2 things (besides a computer):
 
-1. Visual Studio Code or an IDE of your choosing
-   (download visual studio code)[https://code.visualstudio.com/Download]
+1. Visual Studio Code or an IDE of your choosing [download visual studio code][https://code.visualstudio.com/Download]
 
-2. Python 3
-   (download python 3)[https://www.python.org/downloads/]
+2. Python 3 [download python 3][https://www.python.org/downloads/]
 
 After that we need to download the project
 
-1. Navigate to my github link: (intro to programming)[https://github.com/plever-proof/intro-to-programming]
+1. Navigate to my github link: [intro to programming][https://github.com/plever-proof/intro-to-programming]
 
 2. Click on the "code" button
 
