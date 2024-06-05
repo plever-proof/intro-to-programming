@@ -1,5 +1,7 @@
 
-# This is a function the most comon "unit" of a computer program
+# This is a function the most comon "unit" of a computer program.  Functions can take in zero or 
+# more parameters.  Basically a variable that's passed into a function.  In this case the 
+# parameter is a variable called triangle_character.  
 def print_triangle(triangle_character:str) -> None:
     
     # This is called a sanity check or input sanitization... if we didn't do this what would 
@@ -24,7 +26,9 @@ if __name__ == "__main__":
 # Question 1.
 # Can you make the triangle larger say size 20?
 
+# Question 2:
+# What happens if you use more than just one character to print the triangle?  Is that a bug?
 
-# Question 2 (optional):
+# Question 3 (optional):
 # Optional can you make it so you can create any arbitrary size triangle without needing to
-# change the code every time? Hint: try this after the next exercise
+# change the code every time? Hint: try this after the next exercise.

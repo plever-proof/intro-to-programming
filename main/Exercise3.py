@@ -82,5 +82,5 @@ if __name__ == "__main__":
 # What happens if the user inputs something that isn't a number?  
 
 # Question 2 (optional):
-# Can you fix the bug when a user inputs a string instead of a number? 
+# Can you fix the bug that happens if a user inputs a string instead of a number? 
 # Hint this is harder than it looks but you could "try" to "catch" folks out here...

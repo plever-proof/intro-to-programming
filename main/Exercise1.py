@@ -9,8 +9,13 @@
 # The main function where a program starts
 if __name__ == "__main__":
 
+    # This is a variable it holds well... anything!  It allows you to store and modify small 
+    # amounts of data while you run your program.  This variable is a str type that holds 
+    # a string called "Hello World"
+    my_string = "Hello World"
+
     # The print function very useful to display characters and for debugging!
-    print("Hello World")
+    print(my_string)
 
 # Question 1:
 # Can you print out your name?
