@@ -9,17 +9,17 @@ def print_triangle(triangle_character:str) -> None:
     if triangle_character is None or triangle_character is "":
         triangle_character = "#"
 
-    # For loops tell computers to do something a specific amount of time they're the 
+    # For loops tell computers to do something a specific amount of times they're the 
     # quintesencial/most common type of loop there are more types (while, do while)
     # but effectively a loop runs until something happens in this case until it's incremented
-    # the variable i from 1 to 10 or ten times
+    # the variable i from 1 to 10 meaning this loop will run ten times
     for i in range(1, 10):
         print("")
         for j in range (1, i):
             print(triangle_character, end='')
 
-# Main functions tell the compiler or interpreter where to start the program (optional in python)
-# Try it!
+# Main functions tell the compiler or interpreter where to start the program they are optional 
+# in python try it!
 if __name__ == "__main__":
     print_triangle("P")
 
