@@ -1,24 +1,30 @@
-# This is the first program everyone writes and it's called a hello world program
+# Exercise 1.3
 
-# Why? -> https://dev.to/just5moreminutes/why-hello-world-5c0g mainly because someone thought
-# it was fun in the 1960's!  
 
-# The hash tag or pound sign signifies a comment in python.  Comments can be used to explain 
-# how to do something, what something is doing... prevent code from running..
 
-# The main function where a program starts
 if __name__ == "__main__":
+    
+    # Computers do whatever you tell them to do AND NOTHING MORE!  They do not assume, change, alter or lie.
+    # 
+    # If you write a program to delete all your emails... well... the computer will delete your emails!
+    my_string = "Hello World" 
+    
+    # A computer is a machine in the most literal sense of the word so if something isn't working it's 99.9% 
+    # surely your mistake and not the computers. 
 
-    # This is a variable it holds well... anything!  It allows you to store and modify small 
-    # amounts of data while you run your program.  This variable is a str type that holds 
-    # a string called "Hello World"
-    my_string = "Hello World"
+    # Prints are a life saver for debugging as they help you debug and investigate errors.
+    print(my_string)  
 
-    # The print function very useful to display characters and for debugging!
-    print(my_string)
+    # So as simple as this program is remember the basics and STAY CALM!
+
+
+    
+    
+
+
 
 # Question 1:
-# Can you print out your name?
+# Can you create a new variable and store a number in it?
 
 # Question 2:
-# What happens if you try to run the program if you comment out the "print" line?
+# Why doesn't the variable "another_variable" print out the poem?

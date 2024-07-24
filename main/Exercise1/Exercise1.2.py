@@ -1,24 +1,29 @@
-# This is the first program everyone writes and it's called a hello world program
+# Exercise 1.2
 
-# Why? -> https://dev.to/just5moreminutes/why-hello-world-5c0g mainly because someone thought
-# it was fun in the 1960's!  
 
-# The hash tag or pound sign signifies a comment in python.  Comments can be used to explain 
-# how to do something, what something is doing... prevent code from running..
+# The "hashtag" or "pound" sign '#' is used to create a comment in code comments are just flavor for
+# a computer program they describe, note, help developers keep track of thoughts and ideas when writing code
 
-# The main function where a program starts
+
+
+# This is a "main" function it's the entry point for a computer program not all languages use/have main
+# but the concept is universal.  This is where the program starts.
 if __name__ == "__main__":
 
-    # This is a variable it holds well... anything!  It allows you to store and modify small 
-    # amounts of data while you run your program.  This variable is a str type that holds 
-    # a string called "Hello World"
-    my_string = "Hello World"
+    
+    my_string = "Hello World" # This is a variable, variables can hold well... anything!  
+    # They're the most fundamental building block of any computer program
 
-    # The print function very useful to display characters and for debugging!
+    # Prints or other statements are mainly used for debugging they write data to the console or terminal
+    # I'm not going to get into what that is exactly but think of it as the "backrooms" of any computer 
+    # operating system.  If you become a professional programmer you'll become VERY familiar with the terminal
     print(my_string)
 
+    another_variable = "Twas brilig when the slithy toves did gimble and gyre in the wabe.  All mimsy were the borogroves and the momeraths outgrabe."
+
+
 # Question 1:
-# Can you print out your name?
+# Can you create a new variable and store a number in it?
 
 # Question 2:
-# What happens if you try to run the program if you comment out the "print" line?
+# Why doesn't the program print out the poem stored in "another_variable"?
