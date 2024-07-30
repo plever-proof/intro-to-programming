@@ -1,4 +1,4 @@
-# Imports allow you to use POWERFUL libraries that other programmer have already created
+# Imports allow you to use POWERFUL libraries that other programmers have already created
 import time
 
 # Classes are the second most common "unit" of a computer program they are effectively a 
@@ -71,8 +71,8 @@ class MagicNumber():
 if __name__ == "__main__":
 
     # Computer programs are like very complex recipes you tell a computer to add a dash of
-    # number input... a sprinkle of loops... a cup of and variable modification and TADA you 
-    # have a repeatable set of steps that always (well not always) gives you the same result.
+    # number input... a sprinkle of loops... a cup of variable modification and TADA you 
+    # have a repeatable set of steps that more or less always gives you the same result.
     magic = MagicNumber()
     magic.enter_your_number()
     magic.magic_eight_ball()
