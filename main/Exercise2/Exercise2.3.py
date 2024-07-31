@@ -8,9 +8,9 @@ def print_triangle(triangle_character:str, size:int=5) -> None:
     if triangle_character is None or triangle_character is "":
         triangle_character = "*"
 
-    for i in range(1, size):
+    for i in range(0, size+1):
         print("")
-        for j in range (1, i):
+        for j in range (0, i):
             print(triangle_character, end='')
 
 if __name__ == "__main__":

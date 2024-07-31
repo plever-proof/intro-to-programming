@@ -3,11 +3,11 @@
 # more parameters.  Basically a variable that's passed into a function.  
 def print_triangle(triangle_character:str) -> None:
     
-    print("%s", triangle_character)
-    print("%s%s", (triangle_character, triangle_character))
-    print("%s%s%s", (triangle_character, triangle_character, triangle_character))
-    print("%s%s%s%s", (triangle_character, triangle_character, triangle_character, triangle_character))
-    print("%s%s%s%s%s", (triangle_character, triangle_character, triangle_character, triangle_character, triangle_character))
+    print("%s" % triangle_character)
+    print("%s%s" % (triangle_character, triangle_character))
+    print("%s%s%s"% (triangle_character, triangle_character, triangle_character))
+    print("%s%s%s%s"% (triangle_character, triangle_character, triangle_character, triangle_character))
+    print("%s%s%s%s%s"% (triangle_character, triangle_character, triangle_character, triangle_character, triangle_character))
 
     
 # Main functions tell the compiler or interpreter where to start the program they are optional 

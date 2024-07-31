@@ -78,6 +78,11 @@ if __name__ == "__main__":
     print("Expected: ")
     print("Actual:   " + underscore_func([]))
 
+'''
+func underscore_func(array: [Int]) -> String {
+
+  // Your code goes here
+}
     
 print("Test1: [1,2,3,2]")
 print("Expected: _1__2___3___2__")
@@ -94,3 +99,8 @@ print("Actual:   " + underscore_func(numbers:[4,2,3,1]))
 print("Test4: []")
 print("Expected: ")
 print("Actual:   " + underscore_func(numbers:[]))
+
+print("Test5: [1,1,2,2]")
+print("Expected: _1_1__2__2__")
+print("Actual:   " + underscore_func(numbers:[1,1,2,2]))
+'''
